@@ -12,3 +12,8 @@ Or `https://wyn-weather-api.herokuapp.com/cities/44418`
 
 * Clone this repo and `cd` into it
 * `yarn install && yarn start`
+
+## Possible Problems
+
+* Cannot resolve module 'react-dom'/'react-router-dom'
+  Check package.json if `react-dom` and `react-router-dom` are missing in the independencies, do `yarn add react react-dom --save` and `yarn add react react-router-dom` or `npm install` in terminal.
