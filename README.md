@@ -1,5 +1,7 @@
 ## Wyn-Weather APP
 
+It should look like this: http://wyn-weather-app.herokuapp.com
+
 This app was boostrapped with Create React App.   We added react-router-dom, and configured a BrowserRouter in App.js that has two Routes: CitySearch and SingleCity.
 
 The rest is up to you, but you will want to use the API we built for you.
